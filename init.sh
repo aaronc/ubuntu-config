@@ -1,8 +1,8 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 export DEBIAN_FRONTEND=noninteractive
-sudo apt-get install -y git build-essential lubuntu-core lxterminal xmonad emacs24 \
-	openjdk-7-jre icedtea-7-plugin fonts-inconsolata
+sudo apt-get install -y git build-essential lubuntu-core lxterminal xmonad suckless-tools \
+	emacs24 openjdk-7-jre icedtea-7-plugin fonts-inconsolata
 wget http://64.34.173.142/download/4.0/Linux/S/nxserver_4.0.181-4_amd64.deb
 sudo dpkg -i nxserver_4.0.181-4_amd64.deb
 rm nxserver_4.0.181-4_amd64.deb
